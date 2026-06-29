@@ -11,7 +11,8 @@
 
 ## Configure minodupi and install system
 
-* open terminal and run:
+* run this script on the host machine. **don't run this on the raspberry pi.**
+* open a terminal on the host machine and run:
     ```
     pip install pyinfra
     # run install script (adapt password if you used another one) 
