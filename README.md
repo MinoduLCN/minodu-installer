@@ -27,6 +27,10 @@
 
 Read [SETUP.md](SETUP.md).
 
+## Update System
+
+* to update an existing installation, run: `pyinfra @ssh/minodupi.local update.py -v --ssh-user="pi" --ssh-password="<your-password>"`
+
 ## Troubleshooting
 
 * Make sure raspberrpi is reachable with `ping minodupi.local`. If not. reinstall image and make sure to set the hostname to minodupi.local
