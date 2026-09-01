@@ -11,8 +11,8 @@
 
 ## Configure minodupi and install system
 
-* make sure you created the user *pi*.
-* run this script on the host machine. **don't run this on the raspberry pi.** (see below to run locally)
+* *make sure you created the user pi*.
+* run this script on the host machine. **don't run this on the raspberry pi.**
 * open a terminal on the host machine and run:
     ```
     pip install pyinfra
@@ -22,10 +22,6 @@
     pyinfra @ssh/<ip-adress> deploy.py -v --ssh-user="pi" --ssh-password="<your-password>"
     ```
 * follow installation instructions
-
-### Run install script locally on raspberry pi
-
-* run `pyinfra @local deploy.py` (not tested)
 
 ## Manual Setup Instructions
 
